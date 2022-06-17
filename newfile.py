@@ -425,16 +425,16 @@ class Main:
 		print(" [4] 2004-10 Cloning")
 		print(" [5] 2011-22 Cloning")
 		print(" [E] Exit Programming\n")
-		VEER =input(" Choose : ")
-		if VEER in ["1", "01"]:
+		RAKIB =input(" Choose : ")
+		if RAKIB in ["1", "01"]:
 			File()
-		if VEER in ["2", "02"]:
+		if RAKIB in ["2", "02"]:
 			Public()
-		if VEER in ["3", "03"]:
+		if RAKIB in ["3", "03"]:
 			os.system("python Dump.py")
-		if VEER in ["4", "04"]:
+		if RAKIB in ["4", "04"]:
 			self.old()
-		if VEER in ["5", "05"]:
+		if RAKIB in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
